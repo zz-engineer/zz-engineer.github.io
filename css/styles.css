@@ -1,0 +1,158 @@
+/* Page */
+/* #080A0C Rich Black - background*/
+/* #2F2823 Black Coffee - test area*/
+/* #D2D2DA Light Grey - text */
+/*  */
+
+/* Gender */
+/* #83DAEC Sky Blue Crayola - masc*/
+/* #FFADD3 Carnation Pink - fem*/
+/* #F4F6F6 Cultured - neut*/
+/* #520700 Blood Red - plur*/
+
+
+/* Cases */
+/* #FEEB72 Corn - Nom */
+/* #ACAFAC Silver Chalice - Akk */
+/* #12BA85 Mountain Meadow - Gen */
+/* #6CC678 Emerald - Gen */
+
+
+/* Global styles
+------------------------------------------------ */
+body {
+    background-color: #080A0C;
+    font-family: 'Futura', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #D2D2DA;
+}
+
+/* Test Area
+------------------------------------------------ */
+
+.test-area {
+    background-color: #2F2823;
+    height: 550px;
+    width: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.display-noun {
+    height: 30px;
+    width: 275px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+.flag {
+    height: 25px;
+    width: 50px;
+    border-radius: 2px;
+    flex: 0 1 30px;
+}
+.nounselect-text {
+    flex: 1 1 30px;
+    text-align: center;
+}
+.test-image {
+    height: 275px;
+    width: 275px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.caseNom {
+    border: 7.5px solid #FEEB72;
+    border-radius: 10px;
+}
+.caseAkk {
+    border: 7.5px solid #BCBCC7 ;
+    border-radius: 10px;
+}
+.caseDat {
+    border: 7.5px solid #E42535;
+    border-radius: 10px;
+}
+.caseGen {
+    border: 7.5px solid #6CC678;
+    border-radius: 10px;
+}
+
+
+.gen-options {
+    display: inline-flex;
+}
+
+.noun-text {
+    height: 30px;
+    width: 275px;
+    padding: 20px;
+    text-align: center;
+}
+
+.gen-options {
+    height: 30px;
+    width: 275px;  
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex {
+    flex: 1 1 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    border:0;
+    outline:0;
+}
+.button-1 {
+    background-color: #83DAEC;
+}
+.button-2 {
+    background-color: #FFADD3;
+}
+.button-3 {
+    background-color: #F4F6F6;
+}
+.button-4 {
+    background-color: #9B533F;
+    color: white;
+}
+.button-5 {
+    background-color: #A4A3A2;
+        border-radius: 5px;
+    font-size: 17px;
+    border:0;
+    outline:0;
+}
+.rightChoice {
+    background-color:#1BC54E;
+}
+.wrongChoice {
+    background-color:#E22012;
+    color: 003D16;
+}
+
+.counter {
+    height: 20px;
+    width: 275px;
+    padding: 20px;
+    text-align: center;
+}
+.control-buttons {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.control-button {
+    flex: 1 1 30px;
+    font-size: 17px;
+}

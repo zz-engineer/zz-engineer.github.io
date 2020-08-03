@@ -1,0 +1,62 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Noun gender test</title>
+    <!-- <script src="../GenderTester/jquery-3.5.1.js" async></script> -->
+    <script src="../js/script.js" async></script>
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body>
+<!-- overall border -->
+<section class = "test-area">
+
+    <!-- display nouns in addition to picture-->
+    <div class = "display-noun">
+        <input id="eng" class= "flag" type="image" src="/img/gb-flag.jpg" />
+        <!-- <button id = "eng" class = "flag" >eng</button> -->
+        <p1 class="nounselect-text"> -Display noun-
+        </p1>
+        <input id="ger" class= "flag"  type="image" src="/img/ger-flag.jpg" />
+        <!-- <button id = "ger" class = "flag">ger</button> -->
+
+    </div> 
+
+    <!-- area of image and selection with colour background for nom/akk/dat/gen-->
+    <div class = "test-case">
+
+        <!-- reference image to test -->
+        <img id = "img" class = "test-image" alt="image">
+
+        <!-- displayed noun -->
+        <div class = "noun-text">
+            <p2 id = "noun">
+            </p2>
+        </div>
+
+        <!-- option buttons -->
+        <form id="form"  class = "gen-options">
+            <button type="button" id = "gen1" class = "button-1 flex">m</button>
+            <button type="button" id = "gen2"class = "button-2 flex">f</button>
+            <button type="button" id = "gen3" class = "button-3 flex">n</button>
+            <button type="button" id = "gen4" class = "button-4 flex">pl</button>
+            <button type="button" id = "dontKnow" class = "button-5">?</button>
+
+        </form>
+
+    </div>
+
+    <!-- counter for number of itemes tested X/XX -->
+    <div  class = "counter">
+        <p3>
+
+        </p4>
+    </div>
+
+    <!-- reset or end -->
+    <div class = "control-buttons">
+        <button class = "button-reset control-button">Reset</button>
+        <button class = "button-end control-button">End</button>
+    </div>
+</section>
+</body>

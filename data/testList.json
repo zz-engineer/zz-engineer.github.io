@@ -1,0 +1,157 @@
+{
+    "1": {
+       "gen": 1,
+       "Deut": "Körper",
+       "Eng": "body"
+    },
+    "2": {
+       "gen": 1,
+       "Deut": "Hals",
+       "Eng": "neck"
+    },
+    "3": {
+       "gen": 1,
+       "Deut": "Bauch",
+       "Eng": "abdomen"
+    },
+    "4": {
+       "gen": 1,
+       "Deut": "Mann",
+       "Eng": "man"
+    },
+    "5": {
+       "gen": 1,
+       "Deut": "Kopf",
+       "Eng": "head"
+    },
+    "6": {
+       "gen": 1,
+       "Deut": "Nabel",
+       "Eng": "navel"
+    },
+    "7": {
+       "gen": 1,
+       "Deut": "Unterarm",
+       "Eng": "forearm"
+    },
+    "8": {
+       "gen": 1,
+       "Deut": "Oberschenkel",
+       "Eng": "thigh"
+    },
+    "9": {
+       "gen": 1,
+       "Deut": "Fuß",
+       "Eng": "foot"
+    },
+    "10": {
+       "gen": 1,
+       "Deut": "Nacken",
+       "Eng": "nape"
+    },
+    "11": {
+       "gen": 1,
+       "Deut": "Arm",
+       "Eng": "arm"
+    },
+    "12": {
+       "gen": 1,
+       "Deut": "Ellbogen",
+       "Eng": "elbow"
+    },
+    "13": {
+       "gen": 1,
+       "Deut": "Knöchel",
+       "Eng": "ankle"
+    },
+    "14": {
+       "gen": 1,
+       "Deut": "Rücken",
+       "Eng": "back"
+    },
+    "15": {
+       "gen": 2,
+       "Deut": "Brust",
+       "Eng": "Breast/ Chest"
+    },
+    "16": {
+       "gen": 2,
+       "Deut": "Hüfte",
+       "Eng": "hip"
+    },
+    "17": {
+       "gen": 2,
+       "Deut": "Geschlechtsteile",
+       "Eng": "genitals"
+    },
+    "18": {
+       "gen": 2,
+       "Deut": "Leiste",
+       "Eng": "groin"
+    },
+    "19": {
+       "gen": 2,
+       "Deut": "Taille",
+       "Eng": "waist"
+    },
+    "20": {
+       "gen": 2,
+       "Deut": "Frau",
+       "Eng": "woman"
+    },
+    "21": {
+       "gen": 2,
+       "Deut": "Schulter",
+       "Eng": "shoulder"
+    },
+    "22": {
+       "gen": 2,
+       "Deut": "Hand",
+       "Eng": "hand"
+    },
+    "23": {
+       "gen": 2,
+       "Deut": "Achselhöhle",
+       "Eng": "armpit"
+    },
+    "24": {
+       "gen": 2,
+       "Deut": "Wade",
+       "Eng": "calf"
+    },
+    "25": {
+       "gen": 2,
+       "Deut": "Ferse",
+       "Eng": "heel"
+    },
+    "26": {
+       "gen": 3,
+       "Deut": "Schienbein",
+       "Eng": "shin"
+    },
+    "27": {
+       "gen": 3,
+       "Deut": "Bein",
+       "Eng": "leg"
+    },
+    "28": {
+       "gen": 3,
+       "Deut": "Knie",
+       "Eng": "knee"
+    },
+    "29": {
+       "gen": 3,
+       "Deut": "Handgelenk",
+       "Eng": "wrist"
+    },
+    "30": {
+       "gen": 3,
+       "Deut": "Kreuz",
+       "Eng": "small of back"
+    },
+    "31": {
+       "gen": 3,
+       "Deut": "Gesäß",
+       "Eng": "buttock"
+    }
+ }
