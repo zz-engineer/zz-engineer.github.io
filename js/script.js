@@ -37,7 +37,7 @@ const getWords = function(ar) {
     if (ranWordsArray.length > 0 ) {
         testWord = ar[0];
         console.log(testWord[1].gen);
-        let imageAdd = "/img/" + testWord[0] + ".JPG";
+        let imageAdd = "https://github.com/zz-engineer/zz-engineer.github.io/blob/master/img/" + testWord[0] + ".JPG";
         document.querySelector(".test-image").src=imageAdd;
         let counter = (total - ranWordsArray.length) + "/" + total
         count.innerText = counter;
