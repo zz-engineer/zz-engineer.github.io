@@ -37,13 +37,13 @@ const getWords = function(ar) {
     if (ranWordsArray.length > 0 ) {
         testWord = ar[0];
         console.log(testWord[1].gen);
-        let imageAdd = "https://github.com/zz-engineer/zz-engineer.github.io/blob/master/img/" + testWord[0] + ".JPG";
+        let imageAdd = "/img/" + testWord[0] + ".JPG";
         document.querySelector(".test-image").src=imageAdd;
         let counter = (total - ranWordsArray.length) + "/" + total
         count.innerText = counter;
                 return(testWord);
     } else {
-        document.querySelector(".test-image").src="https://github.com/zz-engineer/zz-engineer.github.io/blob/master/img/finished.JPG";
+        document.querySelector(".test-image").src="/img/finished.JPG";
         let counter = (total - ranWordsArray.length) + "/" + total
         count.innerText = counter;
         console.log("test finished")
